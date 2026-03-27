@@ -5,21 +5,21 @@ class Foundry < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/xiphux/foundry/releases/download/v0.1.0/foundry-aarch64-apple-darwin.tar.xz"
-      sha256 "2b85dc172c997e16028291de60e6055cdab0c7d4dc2a99e5b7582baf9b66bcbe"
+      sha256 "3576ac976ddc3977b476ec381254b33e7c4dfec78dc6b3e52cbad0e8d077066a"
     end
     if Hardware::CPU.intel?
       url "https://github.com/xiphux/foundry/releases/download/v0.1.0/foundry-x86_64-apple-darwin.tar.xz"
-      sha256 "8d442171c974adec3210d2de0c100e2ac5c5982eaefb89293ec31f8beae0b1d6"
+      sha256 "cf590e8789a9bfde95a34abd33fed71a5c1f9caf636d07a9750cc51d5728daf8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/xiphux/foundry/releases/download/v0.1.0/foundry-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "affc7339d1202aa2f27497c0d072615d7218b0fa995319866a161e216c61c68e"
+      sha256 "910cc950d976bd1a80bc03fb1f8c26c178e7561db96952eeb56404486a5c94b4"
     end
     if Hardware::CPU.intel?
       url "https://github.com/xiphux/foundry/releases/download/v0.1.0/foundry-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "86bd38b678b6403fbaf841d611db93de95c2d15d9925184b1d3386870db38cd4"
+      sha256 "dffd43b3990bee942653258f9fb53d75c5c0f5915e1e9c92fb5565718d0da5d5"
     end
   end
   license "GPL-3.0-only"
