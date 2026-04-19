@@ -1,25 +1,25 @@
 class Foundry < Formula
   desc "CLI for managing AI agent workspaces using git worktrees and terminal automation"
   homepage "https://github.com/xiphux/foundry"
-  version "0.3.1"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xiphux/foundry/releases/download/v0.3.1/foundry-aarch64-apple-darwin.tar.xz"
-      sha256 "f24aaccbfb7a953754fdb9fe0f6bf23f1c4147b8368d3cb3e0f74a24745efc56"
+      url "https://github.com/xiphux/foundry/releases/download/v0.4.0/foundry-aarch64-apple-darwin.tar.xz"
+      sha256 "56e63a397784045a8497c1a202cd3a44728aac8db088c5c52234a4f586c8437d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xiphux/foundry/releases/download/v0.3.1/foundry-x86_64-apple-darwin.tar.xz"
-      sha256 "3f5cf9a57ef303fbcfeb1a10edf31a27b646c97c7431171ac296a4966529a221"
+      url "https://github.com/xiphux/foundry/releases/download/v0.4.0/foundry-x86_64-apple-darwin.tar.xz"
+      sha256 "e861d524c7c6f8dbd66bb9f848a5ad3d515fada0cbd6ee0f938fda6998675795"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xiphux/foundry/releases/download/v0.3.1/foundry-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "feb1e5f0477e34d5941ea320d7388e9e97ac8dfaa26acf6c55e0c37710215246"
+      url "https://github.com/xiphux/foundry/releases/download/v0.4.0/foundry-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "577846b300d0f2ec0af59c31e5543f9a1938de67c5994656f50802bd12c7d5a6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xiphux/foundry/releases/download/v0.3.1/foundry-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "50c074ec54df5bbc5842d44be3c999563b0767301b69d420d986241e318675bf"
+      url "https://github.com/xiphux/foundry/releases/download/v0.4.0/foundry-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6d9710f37fbf6a03ca4809b5dd5e123afffb33e3a946d456697e81f3e4aff620"
     end
   end
   license "GPL-3.0-only"
